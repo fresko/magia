@@ -49,6 +49,7 @@
     top: 0;
     left: 0;
     z-index: 49;
+    animation: girar 1s infinite;
 }
 
 .conte-texto{
@@ -75,6 +76,15 @@
     }
     100% {
         transform: translateX(0);
+    }
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
 
