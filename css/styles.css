@@ -34,58 +34,19 @@ p {
     margin-bottom: 20px;
 }
 
-/* Animation for circles appearing on hover */
-@keyframes circleAnimation {
+@keyframes EjAnimacion {
     0% {
-        transform: scale(0);
-        opacity: 1;
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
     }
     100% {
-        transform: scale(1);
-        opacity: 0;
+        transform: translateX(0);
     }
-}
-
-body {
-    position: relative;
-    overflow: hidden;
-}
-
-body::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-}
-
-body:hover::after {
-    animation: circleAnimation 1s infinite;
-}
-
-body:hover {
-    cursor: none;
-}
-
-body:hover::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
-    pointer-events: none;
-    animation: circleAnimation 1s infinite;
-}
-
-body:hover::after {
-    animation: circleAnimation 1s infinite;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.8), rgba(35, 27, 46, 0.8));
 }
 
 /* Aplicar la animación a un elemento */
 .animacion {
-    animation: circleAnimation 2s infinite;
+    animation: EjAnimacion 2s infinite;
 }
