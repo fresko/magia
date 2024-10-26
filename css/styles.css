@@ -44,8 +44,12 @@
     position: absolute;
     }
 .conte-texto{
-    justify-content: center;              
-    }   
+    height: 100%;
+    width: 100%;  
+    display: flex;
+    align-items: center;    
+    justify-content: center;                
+}   
 .texto-centro{
     text-align: center; 
     font-family: "Jura", sans-serif;
