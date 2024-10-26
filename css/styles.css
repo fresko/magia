@@ -31,7 +31,7 @@
     border: rgb(0, 255, 255);
     columns: white;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.5);
 }
 .btn:hover{
     transform: scale(0.95);
@@ -47,7 +47,8 @@
     }
 .conte-texto{
      align-items: center;    
-    justify-content: center;                
+    justify-content: center;  
+    position: absolute;                 
 }   
 .texto-centro{
     text-align: center; 
