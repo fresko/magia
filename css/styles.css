@@ -7,7 +7,6 @@
     box-sizing: 0;
     
 }
-
 .conte-root{
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #231b2e, hwb(160 42% 17%));
@@ -47,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #444;
 }
 
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
 
 @keyframes EjAnimacion {
     0% {
