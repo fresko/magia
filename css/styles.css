@@ -43,6 +43,9 @@
     height: 100%;
     position: absolute;
     }
+.conte-texto{
+    justify-content: center;              
+    }   
 .text-centro{
     text-align: center; 
     font-family: "Jura", sans-serif;
