@@ -43,10 +43,12 @@
     height: 100%;
     position: absolute;
     }
-
-h1, h2, h3, h4, h5, h6 {
-    color: #444;
+.text-centro{
+    text-align: center; 
+    font-family: "Jura", sans-serif;
+    color: white;     
 }
+
 
 
 @keyframes EjAnimacion {
