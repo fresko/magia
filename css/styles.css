@@ -41,10 +41,10 @@
 .puntero{
     /*background-color: red;
     border: 2px solid rgba(0, 255, 255, 0.2);*/
-    border-top: 2px solid rgba(0, 89, 255, 0.2);
-    border-bottom: 2px solid rgba(192, 224, 49, 0.2);
-    border-left: 2px solid rgba(216, 60, 177, 0.2);
-    border-right: 2px solid rgba(0, 255, 255, 0.2);
+    border-top: 3px solid rgb(0, 89, 255, 0.2);
+    border-bottom: 3px solid rgb(192, 224, 49, 0.2);
+    border-left: 3px solid rgb(216, 60, 177, 0.2);
+    border-right: 3px solid rgb(0, 255, 255, 0.2);
     position: absolute;
     top: 0;
     left: 0;
@@ -54,17 +54,17 @@
 .puntero2{
     /*background-color: red;
     border: 2px solid rgba(0, 255, 255, 0.2);*/
-    border-top: 3px solid rgb(0, 89, 255, 0.2);
-    border-bottom: 3px solid rgb(192, 224, 49, 0.2);
-    border-left: 3px solid rgb(216, 60, 177, 0.2);
-    border-right: 3px solid rgba(0, 255, 255, 0.2);
+    border-top: 3px solid rgb(0, 89, 255, 0.5);
+    border-bottom: 3px solid rgb(192, 224, 49, 0.5);
+    border-left: 3px solid rgb(216, 60, 177, 0.5);
+    border-right: 3px solid rgba(0, 255, 255, 0.5);
     width: 80%;
     height: 80%;
     margin: 10%;
 }
 
 .conte-texto{
-     align-items: center;    
+    align-items: center;    
     justify-content: center;  
     position: absolute;  
     top: 25%;
