@@ -48,7 +48,9 @@
 .conte-texto{
      align-items: center;    
     justify-content: center;  
-    position: absolute;                 
+    position: absolute;  
+    top: 30%;
+    left: 20%;               
 }   
 .texto-centro{
     text-align: center; 
