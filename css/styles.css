@@ -44,8 +44,7 @@
     position: absolute;
     }
 .conte-texto{
-    display: flex;
-    align-items: center;    
+     align-items: center;    
     justify-content: center;                
 }   
 .texto-centro{
