@@ -8,9 +8,9 @@
 }
 .conte-root{
     /* font-family: Arial, sans-serif; */
-    /* background: linear-gradient(135deg, #231b2e, hwb(160 42% 17%)); */
+     background: linear-gradient(135deg, #231b2e, hwb(160 42% 17%)); 
     /* color: #333; */
-    background-color: black;
+    /*background-color: black;*/
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -67,8 +67,8 @@
     align-items: center;    
     justify-content: center;  
     position: absolute;  
-    top: 25%;
-    left: 25%;               
+    top: 24%;
+    left: 28%;               
 }   
 .texto-centro{
     text-align: center; 

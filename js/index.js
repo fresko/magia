@@ -17,7 +17,7 @@ puntero2.style.borderRadius = ladoPuntero + "px";
 
 conteRoot.addEventListener('mousemove', (e) => {
    const lado = btGrande ? ladoPunteroGrande : ladoPuntero;
-    console.log(e.pageX, e.pageY) 
+    
     puntero.style.top = (e.pageY - (lado/2)) + "px";
     puntero.style.left = (e.pageX - (lado/2)) + "px";
 })
