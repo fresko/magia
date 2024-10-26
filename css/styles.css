@@ -76,8 +76,14 @@
     font-family: "Jura", sans-serif;
     color: white;         
 }
-
-
+.texto-titulo{
+    font-size: 2.5rem;
+    font-family: "Jura", sans-serif;
+    color: white; 
+}
+.texto-negrita{
+    font-weight: bold;
+  }
 
 @keyframes EjAnimacion {
     0% {
