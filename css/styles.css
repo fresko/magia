@@ -67,7 +67,7 @@
 .conte-texto{
     align-items: center;    
     justify-content: center;  
-    position: relative;  
+    position: absolute;  
     top: 22%;
     left: 29%;               
 }   
@@ -92,6 +92,22 @@
     font-weight: bold;
   }
 
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid rgba(255, 255, 255, 0.8);
+    pointer-events: none;
+    animation: moveAndFade 3s forwards;
+}
+/* Aplicar la animación a un elemento */
+.animacion {
+    animation: EjAnimacion 2s infinite;
+}
+
+
 @keyframes EjAnimacion {
     0% {
         transform: translateX(0);
@@ -113,7 +129,15 @@
     }
 }
 
-/* Aplicar la animación a un elemento */
-.animacion {
-    animation: EjAnimacion 2s infinite;
+@keyframes moveAndFade {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(100vh) scale(0.1);
+    }
 }
+
+
