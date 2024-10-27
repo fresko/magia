@@ -67,7 +67,7 @@
 .conte-texto{
     align-items: center;    
     justify-content: center;  
-    position: absolute;  
+    position: relative;  
     top: 22%;
     left: 29%;               
 }   
