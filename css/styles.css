@@ -103,6 +103,7 @@
     border-right: 20px solid transparent;
     border-bottom: 40px solid rgba(255, 255, 255, 0.8);
     pointer-events: none;
+    overflow: hidden;
     animation: moveAndFade 3s forwards;
 }
 /* Aplicar la animación a un elemento */
