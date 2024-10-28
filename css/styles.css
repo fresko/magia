@@ -1,10 +1,76 @@
 /* Base styles for Magia */
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: 0;    
+    box-sizing: border-box;    
+}
+
+.conten-root {
+    background: linear-gradient(130deg, #071622, #2e5472); 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jura", sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.texto-negrita {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgba(0, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    font-weight: bold;
+}
+
+.texto-negrita span {
+    font-weight: normal;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.searchbox input {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchbox button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(0, 255, 255, 0.8);
+    color: white;
+    cursor: pointer;
+}
+
+.searchbox button:hover {
+    background-color: rgba(0, 255, 255, 1);
+}
+
+.label-text {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgba(0, 255, 255, 0.8);
+}
+.label-text-centro {
+    margin-top: 20px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 255, 255, 0.8);
 }
 .conte-root{
     /* font-family: Arial, sans-serif; */
@@ -55,10 +121,7 @@
 .puntero2{
     /*background-color: red;
     border: 2px solid rgba(0, 255, 255, 0.2);*/
-    border-top: 3px solid rgb(0, 89, 255, 0.5);
-    border-bottom: 3px solid rgb(192, 224, 49, 0.5);
-    border-left: 3px solid rgb(216, 60, 177, 0.5);
-    border-right: 3px solid rgba(0, 255, 255, 0.5);
+    
     width: 80%;
     height: 80%;
     margin: 10%;
@@ -67,35 +130,7 @@
     background-size: contain;
 }
 
-.conte-texto{
-    align-items: center;    
-    justify-content: center;  
-    position: absolute;  
-    top: 22%;
-    left: 29%;               
-}   
-.texto-centro{
-    text-align: center; 
-    font-family: "Jura", sans-serif;
-    font-size: 1rem;
-    color: white;         
-}
-.texto-titulo{
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: "Jura", sans-serif;
-    color: white; 
-}
-.texto-negrita{
-    text-align: center;
-    font-size: 2.5rem;
-    font-family: sans-serif;
-    color: white;
-    text-shadow: #2e5472;
-    font-weight: bold;
-  }
-
-  .triangle {
+ .triangle {
     position: absolute;
     width: 0;
     height: 0;
@@ -106,9 +141,6 @@
     animation: moveAndFade 3s forwards;
 }
 /* Aplicar la animación a un elemento */
-.animacion {
-    animation: EjAnimacion 2s infinite;
-}
 body{
     overflow: hidden;
 }
@@ -144,5 +176,3 @@ body{
         transform: translateY(100vh) scale(0.1);
     }
 }
-
-
