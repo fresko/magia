@@ -48,7 +48,7 @@ header {
 
 section {
     padding: 6rem 2rem 4rem;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .section-1 { background-color: var(--ivory-dark); }
@@ -130,12 +130,12 @@ section {
     right: 20px;
     width: 300px;
     background: white;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .chat-messages {
-    height: 100px;
+    height: 80px;
     overflow-y: auto;
     padding: 1rem;
 }
