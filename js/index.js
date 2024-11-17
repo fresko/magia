@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function submitForm() {
-    window.location.href = 'html/servicios.html';
+    window.location.href = '../html/servicios.html';
 }
 
 conteRoot.addEventListener('mousemove', (e) => {
