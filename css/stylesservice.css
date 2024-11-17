@@ -48,7 +48,7 @@ header {
 
 section {
     padding: 6rem 2rem 4rem;
-    min-height: 60vh;
+    min-height: 40vh;
 }
 
 .section-1 { background-color: var(--ivory-dark); }
