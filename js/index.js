@@ -22,6 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+function submitForm() {
+    window.location.href = 'html/servicios.html';
+}
+
 conteRoot.addEventListener('mousemove', (e) => {
        
     puntero.style.top = (e.pageY) + "px";
@@ -55,7 +59,7 @@ function createTriangle(x, y) {
 }
 
 function createTriangle2(x, y) {
-  const triangle = document.createElement('puntero2');
+  const triangle = document.createElement('div');
   triangle.className = 'triangle';
   triangle.style.left = `${x}px`;
   triangle.style.top = `${y}px`;
